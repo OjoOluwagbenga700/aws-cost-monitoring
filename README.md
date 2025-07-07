@@ -87,7 +87,7 @@ Go to the AWS Console → **Budgets** → Create a monthly cost budget manually 
 - Threshold: 80% or any value you prefer
 - Budget Alert: **SNS Topic** created by Terraform (e.g., `aws-budget-alerts`)
 
-### 8. (Optional) Terraform Destroy
+### 6. (Optional) Terraform Destroy
 To remove the infrastructure when you're done testing:
 ```bash
 terraform destroy
